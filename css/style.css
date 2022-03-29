@@ -1,0 +1,47 @@
+
+.navbar-brand,
+.nav-link {
+    text-transform: uppercase;
+}
+
+.linkfooter {
+    color: white;
+    text-decoration: solid;
+}
+
+.fondo {
+    background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0, .5)), url('../images/fondoinicio.jpg');
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+@media only screen and (max-width: 1200px) {
+    .fondo {
+        background-size: cover;
+    }
+  }
+
+#inicio .container {
+    height: 100vh;
+}
+
+#atención:hover {
+    color: red !important;
+    background-color: rgba(0,0,0, .7);
+    
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: green!important;
+}
+
+.card {
+    border: 3px solid #f0ad4e !important;
+}
+
+@media (min-width: 992px) { 
+    .cien {
+        height: 100vh;
+    }
+ }
