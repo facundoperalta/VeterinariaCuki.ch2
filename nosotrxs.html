@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css" id="theme">
   <!--Bootstrap CSS-->
   <link rel="stylesheet" href="css/bootstrap.css">
 
@@ -33,6 +33,7 @@
           </div>
         </div>
       </div>
+      <button class="btn btn-light">Suscripción</button>
     </nav>
   </header>
 
@@ -40,6 +41,8 @@
     <div class="container text-center mt-5">
       <div class="row">
         <div class="col-12">
+          <button type="button" id="buttonlight"> <img src="./images/light.jpg" height ="100" width="100"/><p><b>Modo Normal</b></p></button>
+          <button type="button" id="buttondark"> <img src="./images/dark.jpg" height ="100" width="100"/><p><b>Modo Oscuro</b></p></button>
           <h2 class="display-3 text-warning">Los mejores veterinarios</h2>
           <p class="lead text-muted">Nuestro equipo está formado por profesionales unidos por el amor hacia los
             animales en general y los animales de compañía en particular. Este equipo de
@@ -78,7 +81,7 @@
 
   <!--FOOTER-->
   <footer>
-    <nav class="navbar fixed-bottom navbar-light bg-warning">
+    <nav class="navbar  navbar-light bg-warning">
       <div class="container-fluid justify-content-center my-0">
         <a class="nav-link" href="https://www.facebook.com/veterinaria" target="_blank">
           <img src="/images/facebook.svg" alt="" width="25" height="25">
@@ -101,6 +104,8 @@
 
   <script src="js/bootstrap.js"></script>
   <script src="js/bootstrap.esm.js"></script>
+  <script src="js/app.js"></script>
+
 </body>
 
 </html>
